@@ -1,0 +1,11 @@
+services:
+  dev-blogs:
+    image: mysql:8.0
+    ports:
+      - # ports
+    environment:
+      MYSQL_DATABASE: # db name
+      MYSQL_USER: # username
+      MYSQL_PASSWORD: # password
+      MYSQL_ROOT_PASSWORD: # root password
+      MYSQL_ALLOW_EMPTY_PASSWORD: # yes or no
